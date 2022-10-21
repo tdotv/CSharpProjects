@@ -7,6 +7,7 @@ Task 1
 - Make of int array string array array array.
 
 Task 2
+
 On the basis of collections to implement structure of number storage with support of the following operations:
 - add/remove a number;
 - search for the closest number to the given number (the minimum difference modulus is small).
