@@ -1,0 +1,15 @@
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\bin\Debug\net6.0\Lambda function and multithreading.exe
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\bin\Debug\net6.0\Lambda function and multithreading.deps.json
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\bin\Debug\net6.0\Lambda function and multithreading.runtimeconfig.json
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\bin\Debug\net6.0\Lambda function and multithreading.dll
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\bin\Debug\net6.0\Lambda function and multithreading.pdb
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\obj\Debug\net6.0\Lambda function and multithreading.csproj.AssemblyReference.cache
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\obj\Debug\net6.0\Lambda function and multithreading.GeneratedMSBuildEditorConfig.editorconfig
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\obj\Debug\net6.0\Lambda function and multithreading.AssemblyInfoInputs.cache
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\obj\Debug\net6.0\Lambda function and multithreading.AssemblyInfo.cs
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\obj\Debug\net6.0\Lambda function and multithreading.csproj.CoreCompileInputs.cache
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\obj\Debug\net6.0\Lambda function and multithreading.dll
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\obj\Debug\net6.0\refint\Lambda function and multithreading.dll
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\obj\Debug\net6.0\Lambda function and multithreading.pdb
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\obj\Debug\net6.0\Lambda function and multithreading.genruntimeconfig.cache
+E:\Работа\C#\Lambda function and multithreading\Lambda function and multithreading\obj\Debug\net6.0\ref\Lambda function and multithreading.dll
