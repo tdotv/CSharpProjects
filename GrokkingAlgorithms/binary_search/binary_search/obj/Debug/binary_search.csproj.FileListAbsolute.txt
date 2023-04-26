@@ -1,0 +1,8 @@
+E:\Работа\C#\GrokkingAlgorithms\binary_search\binary_search\bin\Debug\binary_search.exe.config
+E:\Работа\C#\GrokkingAlgorithms\binary_search\binary_search\bin\Debug\binary_search.exe
+E:\Работа\C#\GrokkingAlgorithms\binary_search\binary_search\bin\Debug\binary_search.pdb
+E:\Работа\C#\GrokkingAlgorithms\binary_search\binary_search\obj\Debug\binary_search.csproj.AssemblyReference.cache
+E:\Работа\C#\GrokkingAlgorithms\binary_search\binary_search\obj\Debug\binary_search.csproj.SuggestedBindingRedirects.cache
+E:\Работа\C#\GrokkingAlgorithms\binary_search\binary_search\obj\Debug\binary_search.csproj.CoreCompileInputs.cache
+E:\Работа\C#\GrokkingAlgorithms\binary_search\binary_search\obj\Debug\binary_search.exe
+E:\Работа\C#\GrokkingAlgorithms\binary_search\binary_search\obj\Debug\binary_search.pdb
