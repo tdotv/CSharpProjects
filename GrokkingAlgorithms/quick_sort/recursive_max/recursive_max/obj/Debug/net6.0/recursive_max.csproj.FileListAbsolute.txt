@@ -1,0 +1,15 @@
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\bin\Debug\net6.0\recursive_max.exe
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\bin\Debug\net6.0\recursive_max.deps.json
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\bin\Debug\net6.0\recursive_max.runtimeconfig.json
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\bin\Debug\net6.0\recursive_max.dll
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\bin\Debug\net6.0\recursive_max.pdb
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\obj\Debug\net6.0\recursive_max.csproj.AssemblyReference.cache
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\obj\Debug\net6.0\recursive_max.GeneratedMSBuildEditorConfig.editorconfig
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\obj\Debug\net6.0\recursive_max.AssemblyInfoInputs.cache
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\obj\Debug\net6.0\recursive_max.AssemblyInfo.cs
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\obj\Debug\net6.0\recursive_max.csproj.CoreCompileInputs.cache
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\obj\Debug\net6.0\recursive_max.dll
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\obj\Debug\net6.0\refint\recursive_max.dll
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\obj\Debug\net6.0\recursive_max.pdb
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\obj\Debug\net6.0\recursive_max.genruntimeconfig.cache
+E:\Работа\C#\GrokkingAlgorithms\quick_sort\recursive_max\recursive_max\obj\Debug\net6.0\ref\recursive_max.dll
