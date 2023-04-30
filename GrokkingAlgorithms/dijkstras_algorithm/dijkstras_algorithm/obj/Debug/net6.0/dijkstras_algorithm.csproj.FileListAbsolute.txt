@@ -1,0 +1,15 @@
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\bin\Debug\net6.0\dijkstras_algorithm.exe
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\bin\Debug\net6.0\dijkstras_algorithm.deps.json
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\bin\Debug\net6.0\dijkstras_algorithm.runtimeconfig.json
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\bin\Debug\net6.0\dijkstras_algorithm.dll
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\bin\Debug\net6.0\dijkstras_algorithm.pdb
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\obj\Debug\net6.0\dijkstras_algorithm.csproj.AssemblyReference.cache
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\obj\Debug\net6.0\dijkstras_algorithm.GeneratedMSBuildEditorConfig.editorconfig
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\obj\Debug\net6.0\dijkstras_algorithm.AssemblyInfoInputs.cache
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\obj\Debug\net6.0\dijkstras_algorithm.AssemblyInfo.cs
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\obj\Debug\net6.0\dijkstras_algorithm.csproj.CoreCompileInputs.cache
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\obj\Debug\net6.0\dijkstras_algorithm.dll
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\obj\Debug\net6.0\refint\dijkstras_algorithm.dll
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\obj\Debug\net6.0\dijkstras_algorithm.pdb
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\obj\Debug\net6.0\dijkstras_algorithm.genruntimeconfig.cache
+E:\Работа\C#\GrokkingAlgorithms\dijkstras_algorithm\dijkstras_algorithm\obj\Debug\net6.0\ref\dijkstras_algorithm.dll
