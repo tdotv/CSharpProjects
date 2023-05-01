@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "greedy_algoritm(set_covering)/1.0.0": {
+        "runtime": {
+          "greedy_algoritm(set_covering).dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "greedy_algoritm(set_covering)/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
