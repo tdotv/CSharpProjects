@@ -16,7 +16,7 @@ namespace CSharpTest
                 this.next = next;
             }
         }
-       
+
         public static ListNode AddTwoNumbers(ListNode l1, ListNode l2)  //  Input: l1 = [2,4,3], l2 = [5,6,4]
         {
             ListNode dummyHead = new ListNode(0);                       // head of newly generated list
@@ -53,10 +53,54 @@ namespace CSharpTest
             return r == x;
         }
 
+        //  3
+
+        public static int SearchInsert(int[] nums, int target)      //  Input: nums = [1,3,5,6], target = 2
+        {                                                           //  Output: 1
+            var low = 0;
+            var high = nums.Length - 1;
+
+            int n = nums.Length;
+            if (n == 0)
+                return 0;
+
+            while (low <= high)
+            {
+                var mid = (low + high) / 2;
+                var guess = nums[mid];
+                if (target == guess)
+                {
+                    return mid;
+                }
+                if (guess > target)
+                {
+                    high = mid - 1;
+                }
+                else
+                {
+                    low = mid + 1;
+                }
+            }
+            if (low <= high && nums[high] < target)                 // Test: target = 0 x_x
+                return high + 1;
+            return low;
+        }
+
+        public static int SearchInsert2(int[] nums, int target)
+        {
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (target == nums[i] || nums[i] > target)
+                {
+                    return i;
+                }
+            }
+            return nums.Length;
+        }
+
         static void Main(string[] args)
         {
-            int x = 121;
-            Console.WriteLine(IsPalindrome(x));
+
         }
     }
 }
