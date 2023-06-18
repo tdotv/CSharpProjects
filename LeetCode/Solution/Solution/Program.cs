@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Runtime.ExceptionServices;
 
 namespace CSharpTest
@@ -102,6 +103,39 @@ namespace CSharpTest
                 return Math.Max(maxLeftSum, maxRightSum) + root.val;
             }
             return answer;
+        }
+
+        //  1302
+        public static int DeepestLeavesSum(TreeNode root)
+        {
+            if (root == null)
+            {
+                return 0;
+            }
+
+            int maxDepth = 0;
+            int sum = 0;
+            SumDeepestLeaves(root, 0, ref maxDepth, ref sum);
+            return sum;
+        }
+        private static void SumDeepestLeaves(TreeNode root, int depth, ref int maxDepth, ref int sum)
+        {
+            if (root == null)
+            {
+                return;
+            }
+            else if (maxDepth < depth)
+            {
+                maxDepth = depth;
+                sum = root.val;
+            }
+            else if (depth == maxDepth)
+            {
+                sum += root.val;
+            }
+
+            SumDeepestLeaves(root.left, depth + 1, ref maxDepth, ref sum);
+            SumDeepestLeaves(root.right, depth + 1, ref maxDepth, ref sum);
         }
 
         //-----------------------------------------------------Math-----------------------------------------------------
@@ -352,6 +386,45 @@ namespace CSharpTest
                     }
                 }
             }
+        }
+
+        //  20
+        private static readonly Dictionary<char, char> _pairs = new()
+        {
+            { '(', ')' },
+            { '[', ']' },
+            { '{', '}' },
+        };
+        public bool IsValid(string s)
+        {
+            // If input is empty string then return true
+            if (s.Length == 0) { return true; }
+
+            Stack<char> brackets = new Stack<char>();
+
+            // Loop through each character
+            foreach (char i in s)
+            {
+                // If it is an opening bracket, push it to the stack
+                if (_pairs.ContainsKey(i))
+                {
+                    brackets.Push(i);
+                }
+                // If it is an closing bracket, pop it
+                else if (_pairs.Values.Contains(i))
+                {
+                    if (brackets.Count == 0) return false;
+
+                    var openingBracket = brackets.Pop();
+                    // If it isn't pair of the last opening bracket return false
+                    if (_pairs[openingBracket] != i)
+                    {
+                        return false;
+                    }
+                }
+            }
+            // The stack should be empty in case all brackets are closed
+            return brackets.Count == 0;
         }
 
         //-----------------------------------------------------------------------------------------------------------
