@@ -1,0 +1,15 @@
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/bin/Debug/net8.0/Solution
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/bin/Debug/net8.0/Solution.deps.json
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/bin/Debug/net8.0/Solution.runtimeconfig.json
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/bin/Debug/net8.0/Solution.dll
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/bin/Debug/net8.0/Solution.pdb
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/obj/Debug/net8.0/Solution.GeneratedMSBuildEditorConfig.editorconfig
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/obj/Debug/net8.0/Solution.AssemblyInfoInputs.cache
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/obj/Debug/net8.0/Solution.AssemblyInfo.cs
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/obj/Debug/net8.0/Solution.csproj.CoreCompileInputs.cache
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/obj/Debug/net8.0/Solution.sourcelink.json
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/obj/Debug/net8.0/Solution.dll
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/obj/Debug/net8.0/refint/Solution.dll
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/obj/Debug/net8.0/Solution.pdb
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/obj/Debug/net8.0/Solution.genruntimeconfig.cache
+/home/tdotv/MyDev/CSharpProjects/LeetCode/Solution/obj/Debug/net8.0/ref/Solution.dll
