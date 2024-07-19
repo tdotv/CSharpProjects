@@ -313,6 +313,42 @@ namespace CSharpTest
             return counter;
         }
 
+        // 1
+        public static int[] TwoSum(int[] nums, int target)     // [2,7,11,15], target = 9 -> [0,1]
+        {
+            int[] sum = new int[2];
+            for (int i = 0; i < nums.Length; i++)
+            {
+                System.Console.WriteLine("Start of [i]" + i);
+                for (int j = 0; j < nums.Length; j++)
+                {
+                    System.Console.WriteLine("Start of [j]" + j);
+                    if (nums[i] + nums[j] == target && i != j)
+                    {
+                        sum[0] = i;
+                        sum[1] = j;
+                        return sum;
+                    }
+                }
+            }
+            throw new ArgumentException("No two sum solution");
+        }
+
+        // 27
+        public static int RemoveElement(int[] nums, int val)    // nums = [3,2,2,3], val = 3 | 2, nums = [2,2,_,_]
+        {
+            int count = 0;
+            for (int i = 0; i < nums.Length; i++)
+            {
+                if (nums[i] != val)
+                {
+                    nums[count] = nums[i];
+                    count++;
+                }
+            }
+            return count;
+        }
+
         //-----------------------------------------------------String-----------------------------------------------------
         //  3
         public static int LengthOfLongestSubstring(string s)
@@ -464,9 +500,8 @@ namespace CSharpTest
         //-----------------------------------------------------------------------------------------------------------
         static void Main(string[] args)
         {
-            int[] nums = { 0, 0, 0, 1, 1, 1, 2, 2 }; // 3
-            System.Console.WriteLine(RemoveDuplicates(nums));
-
+            int[] nums = { 0, 1, 2, 2, 3, 0, 4, 2 };
+            RemoveElement(nums, 2);
         }
     }
 }
