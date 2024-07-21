@@ -349,6 +349,64 @@ namespace CSharpTest
             return count;
         }
 
+        // 11
+        public static int MaxArea(int[] height) // { 1, 8, 6, 2, 5, 4, 8, 3, 7 } -> 49  NOT WORKING
+        {
+            int maxWater = 0;
+            for (int i = 0; i < height.Length; i++)
+            {
+                if (height[i] > height[i + 1])
+                {
+                    for (int j = height.Length - 1; j > 0; j--)
+                    {
+                        if (height[j] > height[j - 1])
+                        {
+                            if (height[i] > height[j])
+                            {
+                                height[i] = height[j];
+                            }
+                            else
+                            {
+                                height[j] = height[i];
+                            }
+                            System.Console.WriteLine("i on calc = " + i);
+                            System.Console.WriteLine("j on calc = " + j);
+                            maxWater = height[i] * (j-i);
+                            return maxWater;
+                        }
+                    }
+                }
+                else
+                {
+                    i = 0;
+                }
+            }
+            return maxWater;
+        }
+
+        public static int MaxArea2(int[] height) // { 1, 8, 6, 2, 5, 4, 8, 3, 7 } -> 49
+        {
+            int maxArea = 0;
+            
+            for (int left = 0, right = height.Length - 1; left < right;)
+            {
+                var n = right - left;
+
+                if (height[left] > height[right])
+                {
+                    maxArea = Math.Max(maxArea, height[right] * n);
+                    right--;
+                }
+                else
+                {
+                    maxArea = Math.Max(maxArea, height[left] * n);
+                    left++;
+                }
+            }
+
+            return maxArea;
+        }
+
         //-----------------------------------------------------String-----------------------------------------------------
         //  3
         public static int LengthOfLongestSubstring(string s)
@@ -500,8 +558,8 @@ namespace CSharpTest
         //-----------------------------------------------------------------------------------------------------------
         static void Main(string[] args)
         {
-            int[] nums = { 0, 1, 2, 2, 3, 0, 4, 2 };
-            RemoveElement(nums, 2);
+            int[] nums = { 1, 1, 2 };
+            System.Console.WriteLine(MaxArea2(nums));
         }
     }
 }
