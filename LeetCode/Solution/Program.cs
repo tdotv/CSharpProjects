@@ -350,44 +350,10 @@ namespace CSharpTest
         }
 
         // 11
-        public static int MaxArea(int[] height) // { 1, 8, 6, 2, 5, 4, 8, 3, 7 } -> 49  NOT WORKING
-        {
-            int maxWater = 0;
-            for (int i = 0; i < height.Length; i++)
-            {
-                if (height[i] > height[i + 1])
-                {
-                    for (int j = height.Length - 1; j > 0; j--)
-                    {
-                        if (height[j] > height[j - 1])
-                        {
-                            if (height[i] > height[j])
-                            {
-                                height[i] = height[j];
-                            }
-                            else
-                            {
-                                height[j] = height[i];
-                            }
-                            System.Console.WriteLine("i on calc = " + i);
-                            System.Console.WriteLine("j on calc = " + j);
-                            maxWater = height[i] * (j-i);
-                            return maxWater;
-                        }
-                    }
-                }
-                else
-                {
-                    i = 0;
-                }
-            }
-            return maxWater;
-        }
-
-        public static int MaxArea2(int[] height) // { 1, 8, 6, 2, 5, 4, 8, 3, 7 } -> 49
+        public static int MaxArea(int[] height) // { 1, 8, 6, 2, 5, 4, 8, 3, 7 } -> 49
         {
             int maxArea = 0;
-            
+
             for (int left = 0, right = height.Length - 1; left < right;)
             {
                 var n = right - left;
@@ -405,6 +371,73 @@ namespace CSharpTest
             }
 
             return maxArea;
+        }
+
+        // 66
+        public static int[] PlusOne(int[] digits)
+        {
+            int i = digits.Length - 1;
+            if (digits[i] == 9)
+            {
+
+                for (; i > 0; i--)
+                {
+                    if (digits[i] != 9)
+                    {
+                        digits[i] += 1;
+                        return digits;
+                    }
+                    else
+                    {
+                        digits[i] = 0;
+                    }
+
+                }
+                if (digits[0] == 9)
+                {
+                    digits[i] = 0;
+                    int[] newDigits = new int[digits.Length + 1];
+                    Array.Copy(digits, 0, newDigits, 0, digits.Length);
+                    newDigits[0] = 1;
+                    return newDigits;
+                }
+                else
+                {
+                    digits[0] += 1;
+                }
+                return digits;
+            }
+            else
+            {
+                digits[i] += 1;
+                return digits;
+            }
+        }
+
+        // 88
+        public void Merge(int[] nums1, int m, int[] nums2, int n)
+        {
+            int j = 0;
+            if (nums2.Length != 0)
+            {
+                for (int i = 0; i < nums1.Length; i++)
+                {
+                    if (nums1[i] == 0)
+                    {
+                        nums1[i] = nums2[j];
+
+                        if (j != nums2.Length - 1)
+                        {
+                            j++;
+                        }
+                        else
+                        {
+                            nums2[j] = 0;
+                        }
+                    }
+                }
+            }
+            Array.Sort(nums1);
         }
 
         //-----------------------------------------------------String-----------------------------------------------------
