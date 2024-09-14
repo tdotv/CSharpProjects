@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = double_selection_sort
-build_property.ProjectDir = E:\Работа\C#\GrokkingAlgorithms\double_selection_sort\double_selection_sort\
+build_property.ProjectDir = D:\MyDev\c#\CSharpProjects\GrokkingAlgorithms\double_selection_sort\double_selection_sort\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

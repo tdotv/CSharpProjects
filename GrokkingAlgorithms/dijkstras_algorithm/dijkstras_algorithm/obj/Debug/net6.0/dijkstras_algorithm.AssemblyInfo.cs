@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dijkstras_algorithm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+92b6f856aa424f81eca2748bd328d06a3da551cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("dijkstras_algorithm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dijkstras_algorithm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

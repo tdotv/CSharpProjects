@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = TaskParallelLibrary
-build_property.ProjectDir = E:\Работа\C#\TaskParallelLibrary\TaskParallelLibrary\
+build_property.ProjectDir = D:\MyDev\c#\CSharpProjects\TaskParallelLibrary\TaskParallelLibrary\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

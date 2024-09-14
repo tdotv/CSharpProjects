@@ -8,4 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = greedy_algoritm_set_covering_
-build_property.ProjectDir = E:\Работа\C#\GrokkingAlgorithms\greedy_algoritm(set_covering)\greedy_algoritm(set_covering)\
+build_property.ProjectDir = D:\MyDev\c#\CSharpProjects\GrokkingAlgorithms\greedy_algoritm(set_covering)\greedy_algoritm(set_covering)\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
